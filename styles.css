@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none
+    /* font-family: 'Arial', sans-serif; */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    position: fixed;
+    background-color: #b5eaf7;
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    text-align: center;
+    top: 0;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+}
+
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: -1200px;
+    
+}
+
+
+header nav ul{
+    display: flex;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column; /* mantém o conteúdo empilhado */
+  justify-content: center; /* centraliza na vertical */
+  align-items: center; /* centraliza na horizontal */
+  min-height: 50vh; /* ocupa toda a altura da tela */
+  text-align: center;
+  padding-top: 80px; /* ajusta conforme a altura do seu header */
+}
+
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: -50px; /* Adjusted for fixed header */
+    text-align: center;
+}
+
+
+.jobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 100px; 
+    text-align: center;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 100px; 
+    text-align: center;
+}
