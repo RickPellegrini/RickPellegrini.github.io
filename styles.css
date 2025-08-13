@@ -10,6 +10,8 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     color: #333;
+    
+    
 }
 
 header {
@@ -79,63 +81,7 @@ a:hover {
     color: #0400fa;
 }
 
-.projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding-bottom: 60px;
 
-    text-align: center;
-}
-
-.project-list {
-    display: flex;
-    flex-direction: column; /* Mantém os itens em coluna */
-    list-style-type: disc; /* Adiciona marcadores de lista */
-    text-align: center; /* Alinha o texto à esquerda */
-    gap: 30px; /* Espaçamento entre os itens */
-   
-
-}
-
-.project-list a {
-    text-decoration: none; /* Remove a decoração padrão do link */
-    color: #149409; /* Cor do link */
-    border: 1px solid #013d06; /* Borda ao redor do link */
-    border-radius: 10px;
-    padding: 10px; /* Espaçamento interno */
-}
-
-.jobs {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-
-    text-align: center;
-}
-
-.jobs-list {
-    display: flex;
-    flex-direction: column; /* Mantém os itens em coluna */
-    list-style-type: disc; /* Adiciona marcadores de lista */
-    
-    text-align: center; /* Alinha o texto à esquerda */
-    gap: 30px; /* Espaçamento entre os itens */
-   
-
-}
-
-.jobs-list a {
-    text-decoration: none; /* Remove a decoração padrão do link */
-    color: #149409; /* Cor do link */
-    border: 1px solid #013d06; /* Borda ao redor do link */
-    border-radius: 10px;
-    padding: 10px; /* Espaçamento interno */
-}
 
 
 .contact {
@@ -171,3 +117,15 @@ a:hover {
    
 }
 
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    
+    
+    
+    margin-top: 20px;
+    margin: 0 auto;
+}
