@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ricardo Pellegrini - Portfolio
 
-## Getting Started
+Portfolio pessoal desenvolvido com Next.js, React e TypeScript.
 
-First, run the development server:
+## 🚀 Tecnologias
+
+- **Next.js 16** - Framework React para produção
+- **React 19** - Biblioteca JavaScript para interfaces
+- **TypeScript** - Superset JavaScript com tipagem estática
+- **Tailwind CSS 4** - Framework CSS utilitário
+- **GSAP** - Biblioteca de animações
+
+## 📦 Instalação
 
 ```bash
+# Instalar dependências
+npm install
+
+# Executar em modo desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build para produção
+npm run build
+
+# Iniciar servidor de produção
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Desenvolvimento
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O servidor de desenvolvimento estará disponível em [http://localhost:3000](http://localhost:3000)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Para editar a página inicial, modifique `app/page.tsx`. As mudanças são aplicadas automaticamente.
 
-## Learn More
+## 📁 Estrutura do Projeto
 
-To learn more about Next.js, take a look at the following resources:
+```
+├── app/                    # Diretório principal do Next.js App Router
+│   ├── components/         # Componentes React reutilizáveis
+│   │   ├── AboutMe.tsx
+│   │   ├── FirstTransition.tsx
+│   │   ├── Footer.tsx
+│   │   ├── HamburgerMenu.tsx
+│   │   ├── HeroSection.tsx
+│   │   └── ScrollRevealAnimation.tsx
+│   ├── favicon.ico
+│   ├── globals.css        # Estilos globais
+│   ├── layout.tsx         # Layout raiz da aplicação
+│   └── page.tsx           # Página inicial
+├── public/                # Arquivos estáticos
+├── legacy/                # Versão antiga do site (HTML estático)
+└── ...                    # Arquivos de configuração
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Componentes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **HeroSection**: Seção hero da página inicial
+- **AboutMe**: Seção sobre mim
+- **Footer**: Rodapé do site
+- **HamburgerMenu**: Menu mobile responsivo
+- **FirstTransition**: Animação de transição inicial
+- **ScrollRevealAnimation**: Animações de scroll
 
-## Deploy on Vercel
+## 📝 Scripts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `npm run dev` - Inicia servidor de desenvolvimento
+- `npm run build` - Cria build de produção
+- `npm start` - Inicia servidor de produção
+- `npm run lint` - Executa linter ESLint
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 Licença
+
+Projeto pessoal - Ricardo Pellegrini © 2025
+
+---
+
+Desenvolvido com ❤️ usando Next.js
